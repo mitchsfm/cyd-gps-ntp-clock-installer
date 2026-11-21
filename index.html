@@ -3,24 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CYD GPS NTP Clock — Install</title>
+  <title>CYD GPS NTP Clock - Install</title>
   <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       display: flex; flex-direction: column; align-items: center; justify-content: center;
-      min-height: 100vh; margin: 0; background: #1a1a1a; color: #eee;
-    }
-    h1 { margin-bottom: 0.25em; }
-    p { color: #aaa; margin-bottom: 2em; text-align: center; max-width: 400px; }
-    :root {
-      --esp-tools-button-color: #FFD700;
-      --esp-tools-button-text-color: #000;
-    }
+      min-height: 100vh; margin: 0; background: #1a1a1a; color: #eee; }
+    p { color: #aaa; max-width: 420px; text-align: center; }
+    :root { --esp-tools-button-color: #FFD700; --esp-tools-button-text-color: #000; }
   </style>
 </head>
 <body>
   <h1>CYD GPS NTP Clock</h1>
-  <p>Connect your CYD via USB, then click Install. Your browser (Chrome, Edge, or Opera) will flash the latest firmware.</p>
+  <p>Connect your CYD over USB, then click Install. Use Chrome or Edge.</p>
   <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
   <script type="module" src="https://unpkg.com/esp-web-tools/dist/web/install-button.js?module"></script>
 </body>
