@@ -1,5 +1,3 @@
-cd ~/Documents/cyd-gps-ntp-clock-installer
-cat > manifest.json << 'EOF'
 {
   "name": "CYD GPS NTP Clock",
   "version": "1.0.0",
